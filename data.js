@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-panorama-among-us",
-      "name": "Panorama Among Us",
+      "id": "0-intro",
+      "name": "Intro",
       "levels": [
         {
           "tileSize": 256,
@@ -24,23 +24,23 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 1.1278465845395864,
-        "pitch": 0.14276707284775725,
+        "yaw": 0,
+        "pitch": 0,
         "fov": 1.3517668344523721
       },
       "linkHotspots": [
         {
-          "yaw": 1.1269858375718336,
-          "pitch": 0.2739328255799993,
-          "rotation": 0.7853981633974483,
-          "target": "1-panorama-among-us-2"
+          "yaw": 1.001577444876359,
+          "pitch": 0.20192983509888762,
+          "rotation": 0,
+          "target": "1-webinar-2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-panorama-among-us-2",
-      "name": "Panorama Among Us 2",
+      "id": "1-webinar-2",
+      "name": "Webinar 2",
       "levels": [
         {
           "tileSize": 256,
@@ -62,19 +62,26 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "pitch": 0,
         "yaw": 0,
-        "fov": 1.5707963267948966
+        "pitch": 0,
+        "fov": 1.3517668344523721
       },
       "linkHotspots": [],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.4690617460014437,
+          "pitch": 0.022884615368058192,
+          "title": "Webinar",
+          "text": "Ada acara webinar sekarang"
+        }
+      ]
     }
   ],
   "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": true,
-    "viewControlButtons": true
+    "fullscreenButton": false,
+    "viewControlButtons": false
   }
 };
